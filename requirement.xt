@@ -1,0 +1,39 @@
+Requiremment from our project
+
+we are a booking management company
+
+
+Following are the object values
+1) BOOKS
+ISBN, title,pub date, language,num page, author[],category[]
+
+2) AUTHOR
+id,name,books[]
+
+3) PUBLICATION
+id,name,books[]
+
+
+
+I have to design and code an API over this
+
+1. BOOKS :
+we need an API:
+- to get all the books
+- to get specific book
+- to get a list of books based on category
+- to get a list of books based on language
+
+
+
+2. AUTHORS:
+we need an API:
+- to get all the AUTHORS
+- to get a specific author
+- to get a list of authors based on books
+
+3. PUBLICATION:
+we need an API:
+- to get all the publications
+- to get a specific publications
+- to get the list of publication based on a book
